@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Vertical Header
- * Slug: twentytwentyfive/vertical-header
+ * Slug: mosayco/vertical-header
  * Categories: header
  * Block Types: core/template-part/vertical-header
  * Description: Vertical Header with site title and navigation
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

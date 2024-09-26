@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Coming soon
- * Slug: twentytwentyfive/page-coming-soon
- * Categories: twentytwentyfive_page, featured
+ * Slug: mosayco/page-coming-soon
+ * Categories: mosayco_page, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -10,8 +10,8 @@
  * Description: A full-width cover banner that can be applied to a page or it can work as a single landing page.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

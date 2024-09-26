@@ -1,4 +1,4 @@
-=== Twenty Twenty-Five ===
+=== Mosayco ===
 Contributors: wordpressdotorg
 Requires at least: 6.6
 Tested up to: 6.6
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Mosayco emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
 
 
 == Changelog ==
@@ -17,8 +17,8 @@ Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible de
 
 == Copyright ==
 
-Twenty Twenty-Five WordPress Theme, (C) 2024 WordPress.org and contributors.
-Twenty Twenty-Five is distributed under the terms of the GNU GPL.
+Mosayco WordPress Theme, (C) 2024 WordPress.org and contributors.
+Mosayco is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

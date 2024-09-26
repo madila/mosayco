@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Centered Heading
- * Slug: twentytwentyfive/cta-centered-heading
+ * Slug: mosayco/cta-centered-heading
  * Categories: call-to-action, featured
  * Description: A hero with a centered heading, paragraph and button.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 

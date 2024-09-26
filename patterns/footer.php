@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Footer
- * Slug: twentytwentyfive/footer
+ * Slug: mosayco/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Footer columns with logo, title, tagline and links.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -20,14 +20,12 @@
 
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:columns -->
-			<div class="wp-block-columns">
-				<!-- wp:column {"width":"66.66%"} -->
-				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:site-title {"level":2} /-->
-
-				<!-- wp:site-tagline /-->
-			</div>
-			<!-- /wp:column -->
+            <!-- wp:group {"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group">
+                <!-- wp:site-title {"level":2} /-->
+                <!-- wp:site-tagline /-->
+            </div>
+            <!-- /wp:group -->
 
 			<!-- wp:column {"width":"33.33%"} -->
 			<div class="wp-block-column" style="flex-basis:33.33%">
@@ -71,7 +69,7 @@
 
 	<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignfull">
-		<!-- wp:paragraph { "metadata":{ "bindings":{ "content":{ "source":"twentytwentyfive/copyright" } } }, "fontSize":"small" } -->
+		<!-- wp:paragraph { "metadata":{ "bindings":{ "content":{ "source":"mosayco/copyright" } } }, "fontSize":"small" } -->
 		<p class="has-small-font-size"></p>
 		<!-- /wp:paragraph -->
 
@@ -80,8 +78,8 @@
 			<?php
 			printf(
 				/* Translators: Designed with WordPress. %1$s: WordPress link. */
-				esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-				'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
+				esc_html__( 'Designed with %1$s', 'mosayco' ),
+				'<a href="' . esc_url( __( 'https://wordpress.org', 'mosayco' ) ) . '" rel="nofollow">WordPress</a>'
 			);
 			?>
 		</p>

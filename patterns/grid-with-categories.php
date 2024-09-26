@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Grid with categories
- * Slug: twentytwentyfive/grid-with-categories
+ * Slug: mosayco/grid-with-categories
  * Categories: media, featured
  * Viewport width: 1400
  * Description: A grid section with different categories.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 

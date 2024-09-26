@@ -1,24 +1,24 @@
 <?php
 /**
  * Title: List of posts, 1 column
- * Slug: twentytwentyfive/posts-personal-blog
+ * Slug: mosayco/posts-personal-blog
  * Categories: query
  * Block Types: core/query
  * Description: A list of posts, 1 column, with featured image and post date.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
-<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"type":"default"}} -->
-<div class="wp-block-query">
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"type":"default"},"align":"wide","className":"alignwide"} -->
+<div class="wp-block-query alignwide">
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
 		<!-- wp:query-no-results -->
 		<!-- wp:paragraph -->
-		<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?></p>
+		<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'mosayco' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- /wp:query-no-results -->
 	</div>

@@ -151,6 +151,31 @@
 			],
 			"fontFamilies": [
 				{
+					"fontFace": [
+						{
+							"fontFamily": "Plus Jakarta Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 800",
+							"src": [
+								"file:./assets/fonts/plus-jakarta-sans/PlusJakartaSans-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "Plus Jakarta Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 800",
+							"src": [
+								"file:./assets/fonts/plus-jakarta-sans/PlusJakartaSans-Italic-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+					"name": "Plus Jakarta Sans",
+					"slug": "plus-jakarta-sans"
+				},
+				{
 					"name": "Manrope",
 					"slug": "manrope",
 					"fontFamily": "Manrope, sans-serif",
@@ -953,7 +978,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|manrope",
+			"fontFamily": "var:preset|font-family|plus-jakarta-sans",
 			"fontSize": "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "300",

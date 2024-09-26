@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: More posts
- * Slug: twentytwentyfive/more-posts
+ * Slug: mosayco/more-posts
  * Description: Displays a list of posts with title and date.
  * Categories: query
  * Block Types: core/query
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: News blog home
- * Slug: twentytwentyfive/news-blog-home
+ * Slug: mosayco/news-blog-home
  * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

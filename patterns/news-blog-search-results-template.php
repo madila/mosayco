@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: News blog search results
- * Slug: twentytwentyfive/news-blog-search-results
+ * Slug: mosayco/news-blog-search-results
  * Template Types: search
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 
@@ -22,7 +22,7 @@
 		<div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 		<!-- wp:query-title {"type":"search"} /-->
-		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-search"} /-->
+		<!-- wp:pattern {"slug":"mosayco/hidden-search"} /-->
 		<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
 		<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
@@ -30,7 +30,7 @@
 	<!-- /wp:group -->
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:pattern {"slug":"twentytwentyfive/news-blog-query-loop"} /-->
+		<!-- wp:pattern {"slug":"mosayco/news-blog-query-loop"} /-->
 	</div>
 	<!-- /wp:group -->
 </main>

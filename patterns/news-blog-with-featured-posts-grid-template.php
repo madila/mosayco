@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: News blog with featured posts grid
- * Slug: twentytwentyfive/news-blog-with-featured-posts-grid-template
+ * Slug: mosayco/news-blog-with-featured-posts-grid-template
  * Template Types: front-page, index, home
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 
@@ -131,6 +131,6 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+<!-- wp:pattern {"slug":"mosayco/newsletter-sign-up"} /-->
 
 <!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

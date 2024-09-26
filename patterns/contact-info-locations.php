@@ -1,15 +1,15 @@
 <?php
 /**
  * Title: Contact: Info and locations
- * Slug: twentytwentyfive/contact-info-locations
+ * Slug: mosayco/contact-info-locations
  * Keywords: contact, location
  * Categories: contact
  * Viewport width: 1400
  * Description: Contact section with social media links, email, and multiple location details.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -28,11 +28,11 @@
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
 				<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Social media</h3>
 				<!-- /wp:heading -->
-				<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Social', 'twentytwentyfive' ); ?>"} -->
-					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'X/Twitter', 'twentytwentyfive' ); ?>","url":"#"} /-->
-					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'twentytwentyfive' ); ?>","url":"#"} /-->
-					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'twentytwentyfive' ); ?>","url":"#"} /-->
-					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'TikTok', 'twentytwentyfive' ); ?>","url":"#"} /-->
+				<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Social', 'mosayco' ); ?>"} -->
+					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'X/Twitter', 'mosayco' ); ?>","url":"#"} /-->
+					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'mosayco' ); ?>","url":"#"} /-->
+					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'mosayco' ); ?>","url":"#"} /-->
+					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'TikTok', 'mosayco' ); ?>","url":"#"} /-->
 				<!-- /wp:navigation -->
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
 				<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Email</h3>

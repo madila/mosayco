@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Blog posts for the right aligned blog
- * Slug: twentytwentyfive/right-aligned-posts
+ * Slug: mosayco/right-aligned-posts
  * Categories: query
  * Block Types: core/query
  * Description:
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Contact Location and Link
- * Slug: twentytwentyfive/contact-location-and-link
+ * Slug: mosayco/contact-location-and-link
  * Categories: banner, featured
  * Description: Contact section with a location address, a directions link, and an image of the location.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

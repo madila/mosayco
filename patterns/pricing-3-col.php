@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Pricing, three columns
- * Slug: twentytwentyfive/pricing-3-col
+ * Slug: mosayco/pricing-3-col
  * Categories: call-to-action, banner, featured, services
  * Description: A three-column boxed pricing table designed to showcase services, descriptions, and pricing options.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

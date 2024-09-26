@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Poster-like section
- * Slug: twentytwentyfive/poster-like-section
+ * Slug: mosayco/poster-like-section
  * Categories: banner, media, featured
  * Description: A section that can be used as a banner or a landing page to announce an event.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

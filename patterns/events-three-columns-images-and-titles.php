@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Events three columns with event images and titles
- * Slug: twentytwentyfive/events-three-columns-images-and-titles
+ * Slug: mosayco/events-three-columns-images-and-titles
  * Categories: featured
  * Description: A header with title and text and three columns that show 3 events with their images and titles.
  * Keywords: events, columns, images
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -17,11 +17,11 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"fontSize":"x-large"} -->
-		<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Events', 'twentytwentyfive' ); ?></h2>
+		<h2 class="wp-block-heading has-x-large-font-size"><?php esc_html_e( 'Events', 'mosayco' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
-		<p><?php esc_html_e( 'These are some of the upcoming events.', 'twentytwentyfive' ); ?></p>
+		<p><?php esc_html_e( 'These are some of the upcoming events.', 'mosayco' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
@@ -37,17 +37,17 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|20"}}}} -->
-				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h3>
+				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'mosayco' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
-				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'mosayco' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}}} -->
-			<p style="padding-top:var(--wp--preset--spacing--40)"><a href="#"><?php esc_html_e( 'Event details', 'twentytwentyfive' ); ?></a></p>
+			<p style="padding-top:var(--wp--preset--spacing--40)"><a href="#"><?php esc_html_e( 'Event details', 'mosayco' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -61,17 +61,17 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|20"}}}} -->
-				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h3>
+				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'mosayco' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
-				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'mosayco' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}}} -->
-			<p style="padding-top:var(--wp--preset--spacing--40)"><a href="#"><?php esc_html_e( 'Event details', 'twentytwentyfive' ); ?></a></p>
+			<p style="padding-top:var(--wp--preset--spacing--40)"><a href="#"><?php esc_html_e( 'Event details', 'mosayco' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -85,17 +85,17 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|20"}}}} -->
-				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h3>
+				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'mosayco' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
-				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'mosayco' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}}} -->
-			<p style="padding-top:var(--wp--preset--spacing--40)"><a href="#"><?php esc_html_e( 'Event details', 'twentytwentyfive' ); ?></a></p>
+			<p style="padding-top:var(--wp--preset--spacing--40)"><a href="#"><?php esc_html_e( 'Event details', 'mosayco' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

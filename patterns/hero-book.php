@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Hero book
- * Slug: twentytwentyfive/hero-book
+ * Slug: mosayco/hero-book
  * Categories: featured, hero
  * Keywords: podcast, hero, stories
  * Description: A hero section for the book with a description and pre-order link.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -37,15 +37,15 @@
 			<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained","contentSize":"515px","justifyContent":"left"}} -->
 			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 				<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
-				<h1 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html_x( 'The Stories Book', 'Heading of the hero section', 'twentytwentyfive' ); ?></h1>
+				<h1 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html_x( 'The Stories Book', 'Heading of the hero section', 'mosayco' ); ?></h1>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"large"} -->
-				<p class="has-large-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html_x( 'A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.', 'Content of the hero section', 'twentytwentyfive' ); ?></p>
+				<p class="has-large-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html_x( 'A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.', 'Content of the hero section', 'mosayco' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"fontSize":"medium"} -->
-				<p class="has-medium-font-size"><?php echo esc_html_x( 'Available for pre-order now.', 'CTA text of the hero section', 'twentytwentyfive' ); ?></p>
+				<p class="has-medium-font-size"><?php echo esc_html_x( 'Available for pre-order now.', 'CTA text of the hero section', 'mosayco' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

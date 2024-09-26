@@ -1,17 +1,17 @@
 <?php
 /**
  * Title: Sidebar
- * Slug: twentytwentyfive/hidden-sidebar
+ * Slug: mosayco/hidden-sidebar
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase","letterSpacing":"1.6px"}},"fontSize":"small"} -->
-<h2 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:1.6px;text-transform:uppercase"><?php esc_html_e( 'Other Posts', 'twentytwentyfive' ); ?></h2>
+<h2 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:1.6px;text-transform:uppercase"><?php esc_html_e( 'Other Posts', 'mosayco' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|40"} -->
@@ -36,7 +36,7 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results.","fontSize":"medium"} -->
-		<p class="has-medium-font-size"><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
+		<p class="has-medium-font-size"><?php esc_html_e( 'No posts were found.', 'mosayco' ); ?></p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

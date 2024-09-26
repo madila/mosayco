@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Footer with columns
- * Slug: twentytwentyfive/footer-columns
+ * Slug: mosayco/footer-columns
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Footer columns with title, tagline and links.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 
@@ -32,11 +32,11 @@
 					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
 					<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Stories</h3>
 					<!-- /wp:heading -->
-					<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Stories', 'twentytwentyfive' ); ?>"} -->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'twentytwentyfive' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'twentytwentyfive' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQs', 'twentytwentyfive' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Authors', 'twentytwentyfive' ); ?>","url":"#"} /-->
+					<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Stories', 'mosayco' ); ?>"} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'mosayco' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'mosayco' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQs', 'mosayco' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Authors', 'mosayco' ); ?>","url":"#"} /-->
 					<!-- /wp:navigation -->
 				</div>
 				<!-- /wp:group -->
@@ -45,11 +45,11 @@
 					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
 					<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Fleurs</h3>
 					<!-- /wp:heading -->
-					<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Featured', 'twentytwentyfive' ); ?>"} -->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Events', 'twentytwentyfive' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Shop', 'twentytwentyfive' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Patterns', 'twentytwentyfive' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Themes', 'twentytwentyfive' ); ?>","url":"#"} /-->
+					<!-- wp:navigation {"overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Featured', 'mosayco' ); ?>"} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Events', 'mosayco' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Shop', 'mosayco' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Patterns', 'mosayco' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Themes', 'mosayco' ); ?>","url":"#"} /-->
 					<!-- /wp:navigation -->
 				</div>
 				<!-- /wp:group -->
@@ -62,7 +62,7 @@
 		<!-- /wp:spacer -->
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:paragraph { "metadata":{ "bindings":{ "content":{ "source":"twentytwentyfive/copyright" } } }, "fontSize":"small" } -->
+			<!-- wp:paragraph { "metadata":{ "bindings":{ "content":{ "source":"mosayco/copyright" } } }, "fontSize":"small" } -->
 			<p class="has-small-font-size"></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
@@ -70,8 +70,8 @@
 			<?php
 			printf(
 				/* Translators: Designed with WordPress. %1$s: WordPress link. */
-				esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-				'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
+				esc_html__( 'Designed with %1$s', 'mosayco' ),
+				'<a href="' . esc_url( __( 'https://wordpress.org', 'mosayco' ) ) . '" rel="nofollow">WordPress</a>'
 			);
 			?>
 			</p>

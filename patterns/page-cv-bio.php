@@ -1,16 +1,16 @@
 <?php
 /**
  * Title: CV/Bio
- * Slug: twentytwentyfive/page-cv-bio
- * Categories: twentytwentyfive_page, about
+ * Slug: mosayco/page-cv-bio
+ * Categories: mosayco_page, about
  * Keywords: starter
  * Block Types: core/post-content
  * Viewport width: 1400
  * Description: A pattern for a CV/Bio landing page.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

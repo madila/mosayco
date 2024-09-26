@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Banner with book description
- * Slug: twentytwentyfive/banner-about-book
+ * Slug: mosayco/banner-about-book
  * Categories: banner, featured
  * Description: Banner with book description and accompanying image for promotion.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

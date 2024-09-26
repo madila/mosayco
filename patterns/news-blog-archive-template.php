@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: News blog archive
- * Slug: twentytwentyfive/news-blog-archive
+ * Slug: mosayco/news-blog-archive
  * Template Types: archive
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -30,7 +30,7 @@
 	<!-- /wp:group -->
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:pattern {"slug":"twentytwentyfive/news-blog-query-loop"} /-->
+		<!-- wp:pattern {"slug":"mosayco/news-blog-query-loop"} /-->
 	</div>
 	<!-- /wp:group -->
 </main>

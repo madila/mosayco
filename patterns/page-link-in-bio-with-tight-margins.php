@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Link in bio with tight margins
- * Slug: twentytwentyfive/page-link-in-bio-with-tight-margins
- * Categories: twentytwentyfive_page, banner, featured
+ * Slug: mosayco/page-link-in-bio-with-tight-margins
+ * Categories: mosayco_page, banner, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -10,8 +10,8 @@
  * Description: A full-width, full-height link in bio section with an image, a paragraph and social links.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

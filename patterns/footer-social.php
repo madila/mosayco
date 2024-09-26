@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Centered Footer with social links
- * Slug: twentytwentyfive/footer-social
+ * Slug: mosayco/footer-social
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Footer with centered site title and social links.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -17,7 +17,7 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 	<div class="wp-block-group">
 		<!-- wp:site-title {"level":2,"textAlign":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-large"} /-->
-		<!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"x-large","layout":{"type":"flex","justifyContent":"center"},"ariaLabel":"<?php esc_attr_e( 'Social', 'twentytwentyfive' ); ?>"} -->
+		<!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"x-large","layout":{"type":"flex","justifyContent":"center"},"ariaLabel":"<?php esc_attr_e( 'Social', 'mosayco' ); ?>"} -->
 		<!-- wp:navigation-link {"label":"Facebook","url":"#"} /-->
 		<!-- wp:navigation-link {"label":"Instagram","url":"#"} /-->
 		<!-- wp:navigation-link {"label":"X","url":"#"} /-->
@@ -32,8 +32,8 @@
 		<?php
 		printf(
 			/* Translators: Designed with WordPress. %1$s: WordPress link. */
-			esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-			'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
+			esc_html__( 'Designed with %1$s', 'mosayco' ),
+			'<a href="' . esc_url( __( 'https://wordpress.org', 'mosayco' ) ) . '" rel="nofollow">WordPress</a>'
 		);
 		?>
 	</p>

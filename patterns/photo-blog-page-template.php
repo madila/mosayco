@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Photo blog page
- * Slug: twentytwentyfive/photo-blog-page
+ * Slug: mosayco/photo-blog-page
  * Template Types: page
  * Viewport width: 1400
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Photo blog home
- * Slug: twentytwentyfive/photo-blog-home
+ * Slug: mosayco/photo-blog-home
  * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -26,7 +26,7 @@
 	<!-- wp:heading {"textAlign":"center","align":"wide","fontSize":"xx-large"} -->
 	<h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size">Tell your story</h2>
 	<!-- /wp:heading -->
-	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->
+	<!-- wp:pattern {"slug":"mosayco/photo-blog-posts"} /-->
 </main>
 <!-- /wp:group -->
 

@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Hero podcast
- * Slug: twentytwentyfive/hero-podcast
+ * Slug: mosayco/hero-podcast
  * Categories: featured, hero
  * Keywords: podcast, hero, stories
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 
@@ -19,7 +19,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 			<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 			<figure class="wp-block-image size-large">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero-podcast.webp" alt="<?php echo esc_attr_x( 'Picture of a person', 'Alt text for hero image', 'twentytwentyfive' ); ?>"/>
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero-podcast.webp" alt="<?php echo esc_attr_x( 'Picture of a person', 'Alt text for hero image', 'mosayco' ); ?>"/>
 			</figure>
 			<!-- /wp:image -->
 		</div>
@@ -32,7 +32,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}}} -->
-			<p style="padding-top:var(--wp--preset--spacing--30)"><?php echo esc_html_x( 'Storytelling, expert analysis, and vivid descriptions. The Stories Podcast brings history to life, making it accessible and engaging for a global audience.', 'Podcast description', 'twentytwentyfive' ); ?></p>
+			<p style="padding-top:var(--wp--preset--spacing--30)"><?php echo esc_html_x( 'Storytelling, expert analysis, and vivid descriptions. The Stories Podcast brings history to life, making it accessible and engaging for a global audience.', 'Podcast description', 'mosayco' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}},"fontSize":"large"} -->
@@ -42,23 +42,23 @@
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'mosayco' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'mosayco' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'mosayco' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'mosayco' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'mosayco' ); ?></a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

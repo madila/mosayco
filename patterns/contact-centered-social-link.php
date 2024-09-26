@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Centered link and social links
- * Slug: twentytwentyfive/contact-centered-social-link
+ * Slug: mosayco/contact-centered-social-link
  * Keywords: contact, social-link
  * Categories: contact
  * Description: Centered contact section with a prominent message and social media links.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -17,7 +17,7 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var(--wp--custom--font-size--huge)"}}} -->
-		<p class="has-text-align-center" style="font-size:var(--wp--custom--font-size--huge);"><?php echo wp_kses_post( _x( 'Got questions? <br><a href="#" rel="nofollow">Feel free to reach out.</a>', 'Heading of the Contact social link pattern', 'twentytwentyfive' ) ); ?></p>
+		<p class="has-text-align-center" style="font-size:var(--wp--custom--font-size--huge);"><?php echo wp_kses_post( _x( 'Got questions? <br><a href="#" rel="nofollow">Feel free to reach out.</a>', 'Heading of the Contact social link pattern', 'mosayco' ) ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:social-links {"iconColor":"contrast","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->

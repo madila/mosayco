@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Photo blog search results
- * Slug: twentytwentyfive/photo-blog-search-results
+ * Slug: mosayco/photo-blog-search-results
  * Template Types: search
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -19,10 +19,10 @@
 	<!-- wp:query-title {"type":"search","textAlign":"center","align":"wide"} /-->
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-search"} /-->
+		<!-- wp:pattern {"slug":"mosayco/hidden-search"} /-->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->
+	<!-- wp:pattern {"slug":"mosayco/photo-blog-posts"} /-->
 </main>
 <!-- /wp:group -->
 

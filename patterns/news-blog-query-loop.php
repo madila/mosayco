@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: News blog query loop
- * Slug: twentytwentyfive/news-blog-query-loop
+ * Slug: mosayco/news-blog-query-loop
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

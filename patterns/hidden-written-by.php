@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Written by
- * Slug: twentytwentyfive/hidden-written-by
+ * Slug: mosayco/hidden-written-by
  * Inserter: no
  *
  * @package    WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since      Twenty Twenty-Five 1.0
  */
 

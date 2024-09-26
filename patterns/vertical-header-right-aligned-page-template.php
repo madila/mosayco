@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Page template for the right aligned blog
- * Slug: twentytwentyfive/right-aligned-page
+ * Slug: mosayco/right-aligned-page
  * Template Types: page
  * Viewport width: 1400
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

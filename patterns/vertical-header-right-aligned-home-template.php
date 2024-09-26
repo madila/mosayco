@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Homepage for right aligned blog
- * Slug: twentytwentyfive/right-aligned-home
+ * Slug: mosayco/right-aligned-home
  * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -27,12 +27,12 @@
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
-			<!-- wp:pattern {"slug":"twentytwentyfive/hidden-blog-heading"} /-->
+			<!-- wp:pattern {"slug":"mosayco/hidden-blog-heading"} /-->
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 
-			<!-- wp:pattern {"slug":"twentytwentyfive/right-aligned-posts"} /-->
+			<!-- wp:pattern {"slug":"mosayco/right-aligned-posts"} /-->
 
 			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
 			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>

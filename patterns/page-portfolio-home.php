@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Homepage
- * Slug: twentytwentyfive/page-portfolio-home
- * Categories: twentytwentyfive_page, posts, featured
+ * Slug: mosayco/page-portfolio-home
+ * Categories: mosayco_page, posts, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -10,8 +10,8 @@
  * Description: A portfolio homepage pattern.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -221,7 +221,7 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"twentytwentyfive/copyright"}}},"textColor":"primary","fontSize":"small"} -->
+			<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"mosayco/copyright"}}},"textColor":"primary","fontSize":"small"} -->
 			<p class="has-primary-color has-text-color has-small-font-size"></p>
 			<!-- /wp:paragraph -->
 

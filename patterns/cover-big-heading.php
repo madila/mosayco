@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Cover with big heading
- * Slug: twentytwentyfive/cover-with-big-heading
+ * Slug: mosayco/cover-with-big-heading
  * Categories: banner, about, featured
  * Description: A full-width cover section with a large background image and an oversized heading.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
+ * @subpackage Mosayco
  * @since Twenty Twenty-Five 1.0
  */
 

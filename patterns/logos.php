@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Logos
- * Slug: twentytwentyfive/logos
+ * Slug: mosayco/logos
  * Categories: banner, featured
  * Description: Showcasing the podcast's clients with a heading and a series of client logos.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

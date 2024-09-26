@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Text-only blog, posts
- * Slug: twentytwentyfive/text-only-blog-posts
+ * Slug: mosayco/text-only-blog-posts
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

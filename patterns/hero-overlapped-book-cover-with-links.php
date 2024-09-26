@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Hero Overlapped Book Cover with Links
- * Slug: twentytwentyfive/hero-overlapped-book-cover-with-links
+ * Slug: mosayco/hero-overlapped-book-cover-with-links
  * Categories: banner, featured
  * Description: A hero with an overlapped book cover and links.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
@@ -28,12 +28,12 @@
 						<div class="wp-block-group">
 							<!-- wp:heading {"fontSize":"xx-large"} -->
 							<h2 class="wp-block-heading has-xx-large-font-size">
-								<?php echo esc_html_x( 'The Stories Book', 'Hero - Overlapped book cover pattern headline text', 'twentytwentyfive' ); ?>
+								<?php echo esc_html_x( 'The Stories Book', 'Hero - Overlapped book cover pattern headline text', 'mosayco' ); ?>
 							</h2>
 							<!-- /wp:heading -->
 							<!-- wp:paragraph {"fontSize":"x-large"} -->
 							<p class="has-x-large-font-size">
-								<?php echo esc_html_x( 'A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.', 'Hero - Overlapped book cover pattern subline text', 'twentytwentyfive' ); ?>
+								<?php echo esc_html_x( 'A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.', 'Hero - Overlapped book cover pattern subline text', 'mosayco' ); ?>
 							</p>
 							<!-- /wp:paragraph -->
 						</div>
@@ -54,14 +54,14 @@
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Amazon', 'Hero - Overlapped book cover pattern button 1', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Shop at Amazon', 'Hero - Overlapped book cover pattern button 1', 'mosayco' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Apple Books', 'Hero - Overlapped book cover pattern button 2', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Shop at Apple Books', 'Hero - Overlapped book cover pattern button 2', 'mosayco' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
@@ -76,14 +76,14 @@
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Audible', 'Hero - Overlapped book cover pattern button 3', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Shop at Audible', 'Hero - Overlapped book cover pattern button 3', 'mosayco' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Barnes & Noble', 'Hero - Overlapped book cover pattern button 4', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Shop at Barnes & Noble', 'Hero - Overlapped book cover pattern button 4', 'mosayco' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
@@ -100,7 +100,7 @@
 
 							<!-- wp:paragraph {"fontSize":"medium"} -->
 							<p class="has-medium-font-size">
-								<?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>.', 'Hero - Overlapped book cover pattern bottom text', 'twentytwentyfive' ) ); ?>
+								<?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>.', 'Hero - Overlapped book cover pattern bottom text', 'mosayco' ) ); ?>
 							</p>
 							<!-- /wp:paragraph -->
 						</div>
@@ -113,7 +113,7 @@
 				<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%">
 					<!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/book-image.webp" alt="<?php echo esc_attr__( 'Book Image', 'twentytwentyfive' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/>
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/book-image.webp" alt="<?php echo esc_attr__( 'Book Image', 'mosayco' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/>
 					</figure>
 					<!-- /wp:image -->
 				</div>

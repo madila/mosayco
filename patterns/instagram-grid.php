@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Instagram grid
- * Slug: twentytwentyfive/instagram-grid
+ * Slug: mosayco/instagram-grid
  * Categories: media, featured
  * Viewport width: 1440
  * Description: A grid section with photos and a link to an Instagram profile.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

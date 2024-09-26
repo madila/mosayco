@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Event schedule
- * Slug: twentytwentyfive/event-schedule
+ * Slug: mosayco/event-schedule
  * Categories: about, media, featured
  * Description: A section with specified dates and times for an event.
  * Keywords: events, agenda, schedule, lectures
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>

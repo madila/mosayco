@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Landing page for Event
- * Slug: twentytwentyfive/page-landing-event
- * Categories: twentytwentyfive_page, featured
+ * Slug: mosayco/page-landing-event
+ * Categories: mosayco_page, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -10,18 +10,18 @@
  * Description: A landing page for the event with a hero section, description, FAQs and call to action.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Mosayco
+ * @since Mosayco 1.0
  */
 
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull">
-	<!-- wp:pattern {"slug":"twentytwentyfive/hero-full-width-image"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/heading-and-paragraph-with-image"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/two-headings-and-a-list"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/text-faqs"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/banner-description-images-grid"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/contact-centered-social-link"} /-->
+	<!-- wp:pattern {"slug":"mosayco/hero-full-width-image"} /-->
+	<!-- wp:pattern {"slug":"mosayco/heading-and-paragraph-with-image"} /-->
+	<!-- wp:pattern {"slug":"mosayco/two-headings-and-a-list"} /-->
+	<!-- wp:pattern {"slug":"mosayco/text-faqs"} /-->
+	<!-- wp:pattern {"slug":"mosayco/banner-description-images-grid"} /-->
+	<!-- wp:pattern {"slug":"mosayco/contact-centered-social-link"} /-->
 </div>
 <!-- /wp:group -->
