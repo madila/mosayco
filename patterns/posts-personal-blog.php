@@ -14,9 +14,10 @@
 ?>
 <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"type":"default"},"align":"wide","className":"alignwide"} -->
 <div class="wp-block-query alignwide">
+
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
-		<!-- wp:query-no-results -->
+		<!-- wp:query-no-results {"align":"wide"} -->
 		<!-- wp:paragraph -->
 		<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'mosayco' ); ?></p>
 		<!-- /wp:paragraph -->

@@ -4,7 +4,6 @@
  * Slug: mosayco/news-blog-with-sidebar-template
  * Template Types: front-page, index, home
  * Viewport width: 1400
- * Inserter: no
  *
  * @package WordPress
  * @subpackage Mosayco

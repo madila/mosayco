@@ -14,10 +14,16 @@ Text Domain: mosayco
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
+
+html {
+	scroll-behavior: smooth;
+}
+
 /*
  * Link styles
  * https://github.com/WordPress/gutenberg/issues/42319
  */
+
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
@@ -25,8 +31,8 @@ a {
 
 /* Focus styles */
 :where(.wp-site-blocks *:focus) {
-	outline-width: 2px;
-	outline-style: solid;
+	/*outline-width: 2px;
+	outline-style: solid;*/
 }
 
 /*
@@ -43,6 +49,26 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
  * https://developer.chrome.com/docs/css-ui/animate-to-height-auto#animate_to_and_from_intrinsic_sizing_keywords_with_interpolate-size
  *
  */
-:root {
-	interpolate-size: allow-keywords;
+
+@supports (interpolate-size: allow-keywords) {
+	:root {
+		interpolate-size: allow-keywords;
+	}
+
+	details {
+		transition: height 0.5s ease;
+
+		&:not([open]) {
+			/*height: 4em;*/
+		}
+
+		&[open] {
+			height: auto;
+			overflow: clip; /* Clip off contents while animating */
+		}
+	}
+}
+
+summary::-webkit-details-marker {
+	margin-right: 2em;
 }

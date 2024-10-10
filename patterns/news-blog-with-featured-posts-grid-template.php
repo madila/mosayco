@@ -3,7 +3,6 @@
  * Title: News blog with featured posts grid
  * Slug: mosayco/news-blog-with-featured-posts-grid-template
  * Template Types: front-page, index, home
- * Inserter: no
  *
  * @package WordPress
  * @subpackage Mosayco

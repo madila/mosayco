@@ -3,6 +3,36 @@
 	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"shadow": {
+			"defaultPresets": true,
+			"presets": [
+				{
+					"name": "Surround",
+					"slug": "surround",
+					"shadow": "0px 0px var(--wp--preset--spacing--30) rgba(0, 0, 0, 0.4)"
+				},
+				{
+					"name": "Deep",
+					"slug": "deep",
+					"shadow": "12px 12px 50px rgba(0, 0, 0, 0.4)"
+				},
+				{
+					"name": "Sharp",
+					"slug": "sharp",
+					"shadow": "6px 6px 0px rgba(0, 0, 0, 0.2)"
+				},
+				{
+					"name": "Outlined",
+					"slug": "outlined",
+					"shadow": "6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1)"
+				},
+				{
+					"name": "Crisp",
+					"slug": "crisp",
+					"shadow": "6px 6px 0px rgba(0, 0, 0, 1)"
+				}
+			]
+		},
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
@@ -17,6 +47,11 @@
 					"color": "#111111",
 					"name": "Contrast",
 					"slug": "contrast"
+				},
+				{
+					"color": "#FFB10A",
+					"name": "Accent 1 / Dark",
+					"slug": "accent-1-dark"
 				},
 				{
 					"color": "#FFEE58",
@@ -954,7 +989,7 @@
 		},
 		"custom": {
 			"fontSize": {
-				"huge": "clamp(2.5rem, 4vw, 4.375rem)",
+				"huge": "clamp(13vw, 17.9vw, 19ch)",
 				"heading-1": "clamp(1.561rem, 1.2288rem + 1.661vw, 2.62rem)",
 				"heading-2": "clamp(1.146rem, 0.9408rem + 1.026vw, 1.8rem)",
 				"heading-3": "clamp(1.06rem, 0.878rem + 0.91vw, 1.64rem)",
@@ -982,8 +1017,7 @@
 			"fontSize": "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "300",
-			"letterSpacing": "-0.22px",
-			"lineHeight": "1.4"
+			"lineHeight": "1.8"
 		},
 		"blocks": {
 			"core/avatar": {
@@ -1119,6 +1153,12 @@
 					"fontSize": "var:preset|font-size|small"
 				}
 			},
+			"core/details": {
+				"css": "& summary { line-height: 1.4 } & summary::marker { font-size: 2rem; line-height: 1rem; white-space: pre-wrap; }"
+			},
+			"core/post-content" : {
+				"css": "& > *:not(.alignleft):not(.alignright):not(.alignfull) { max-width: var(--wp--style--global--wide-size); }"
+			},
 			"core/post-comments-form": {
 				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--opacity-20) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
 				"typography": {
@@ -1179,6 +1219,15 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
 				}
+			},
+			"core/page-list": {
+				"css": "& > .current-menu-item { pointer-events: none; font-weight: bold; }"
+			},
+			"core/navigation-link": {
+				"css": "&.current-menu-item { font-weight: bold; }"
+			},
+			"core/navigation-item": {
+				"css": "&.current-menu-item { font-weight: bold; }"
 			},
 			"core/post-navigation-link": {
 				"typography": {
@@ -1391,6 +1440,9 @@
 			},
 			"core/list": {
 				"css": "& li{margin-bottom: 0.5rem;}"
+			},
+			"core/site-logo": {
+				"css": "& a.custom-logo-link { display:flex; } & a.custom-logo-link img { width: 100%; }"
 			}
 		},
 		"elements": {
@@ -1477,7 +1529,8 @@
 				"typography": {
 					"fontStyle": "normal",
 					"fontWeight": "400",
-					"lineHeight": "1.125"
+					"lineHeight": "1.125",
+					"letterSpacing": "-0.02em"
 				}
 			},
 			"link": {
@@ -1519,6 +1572,11 @@
 			"name": "page-no-title",
 			"postTypes": ["page"],
 			"title": "Page No Title"
+		},
+		{
+			"name": "page-blank",
+			"postTypes": ["page"],
+			"title": "Blank Page"
 		}
 	]
 }
