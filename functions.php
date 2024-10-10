@@ -132,7 +132,7 @@ if (!function_exists('mosayco_block_styles')) :
                 'name' => 'cast-shadow',
                 'label' => __('Cast shadow', 'mosayco'),
                 'inline_style' => '
-                .is-style-cast-shadow { position: relative; padding: 1px;}
+                .is-style-cast-shadow { position: relative; --gradient-degrees: 73deg; padding: 1px;}
                 .is-style-cast-shadow .wp-block-button__link { 
                     position: relative; border-radius: 15px;
                     box-shadow: 0 0 var(--wp--preset--spacing--20) rgba(0,0,0,0.1);
@@ -140,6 +140,10 @@ if (!function_exists('mosayco_block_styles')) :
                     background-color: white;
                     color: black;
                 }
+               
+                .is-style-cast-shadow:not([data-shown]):before {
+				    opacity: 0 !important;		   
+				}
 				.is-style-cast-shadow:before {
                       position: absolute;
                       top: -1px;
@@ -149,7 +153,7 @@ if (!function_exists('mosayco_block_styles')) :
                       content: "";
                       z-index: 0;
                       border-radius: 18px;
-                      background: linear-gradient(71deg, var(--wp--preset--color--accent-1), rgba(0,0,0,0.2), var(--wp--preset--color--accent-1-dark));
+                      background: linear-gradient(var(--gradient-degrees), var(--wp--preset--color--accent-1), rgba(0,0,0,0.2), var(--wp--preset--color--accent-1-dark));
 				}',
             )
         );
@@ -160,22 +164,35 @@ if (!function_exists('mosayco_block_styles')) :
                 'name' => 'highlight-card',
                 'label' => __('Card', 'mosayco'),
                 'inline_style' => '
-                .wp-block-group:has(.is-style-highlight-card) { z-index: 0;}
-                .is-style-highlight-card { position: relative; border-radius: 15px; }
+    
+                .wp-block-group:has(.is-style-highlight-card) { 
+                    z-index: 0;
+                }
+                
+                .is-style-highlight-card[data-shown="true"] {
+                    animation: rotateGradient 10s linear !important;
+                    animation-iteration-count: infinite !important;
+                }
+                
+                .is-style-highlight-card { 
+                    position: relative; 
+                    border-radius: 15px; 
+                    --gradient-degrees: 0deg;
+                }
 				.is-style-highlight-card:not([data-shown]):before {
 				    opacity: 0 !important;		   
 				}
-				.is-style-highlight-card:before {
+				.is-style-highlight-card:before {				   
 				      transition: opacity 100ms linear;
                       position: absolute;
-                      top: -2px;
-                      bottom: -2px;
-                      left: -2px;
-                      right: -2px;
+                      top: -1.5px;
+                      bottom: -1.5px;
+                      left: -1.5px;
+                      right: -1.5px;
                       content: "";
                       z-index: -1;
                       border-radius: inherit;
-                      background: linear-gradient(71deg, var(--wp--preset--color--accent-1), rgba(0,0,0,0.2), var(--wp--preset--color--accent-1-dark));
+                      background: linear-gradient(var(--gradient-degrees), var(--wp--preset--color--accent-1), rgba(0,0,0,0.2), var(--wp--preset--color--accent-1-dark));
 				}',
             )
         );
