@@ -46,8 +46,17 @@ if (!function_exists('mosayco_enqueue_styles')) :
             wp_get_theme()->get('Version')
         );
 
-        wp_enqueue_script( 'scroll-timeline', 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js');
+        global $is_safari;
 
+        if($is_safari || wp_is_mobile()) {
+            wp_enqueue_script(
+                'scroll-timeline-polyfill', // unique handle
+                'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js',
+                [], // required dependencies for blocks
+                '1.0',
+                false
+            );
+        }
     }
 endif;
 
